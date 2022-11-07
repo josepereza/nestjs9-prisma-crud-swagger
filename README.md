@@ -27,9 +27,16 @@
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
 ## Installation
+* Add in .env 
+
+```
+DATABASE_URL="postgresql://postgres:postgres@localhost:5431/nameDB"
+```
 
 ```bash
 $ npm install
+$ docker compose up
+
 ```
 
 ## Running the app
